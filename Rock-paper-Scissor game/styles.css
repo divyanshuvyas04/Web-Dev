@@ -1,0 +1,136 @@
+*{
+    background-color: #5593f0;
+    margin: 0px;
+    padding: 0px;
+}
+
+.heading{
+    display: flex;
+    flex-direction: row;
+    background-color: #faf55c;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    margin-bottom: 100px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 150px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+img:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+img:active{
+    transform: scale(0.7);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.score-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(179, 241, 177);
+    z-index: 1;
+    height: max-content;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+.score-text{
+    font-size: 26px;
+    font-weight: 700;
+    color: rgb(22, 15, 31);
+    width: 100%;
+    text-align: center;
+    background-color: rgb(187, 162, 202);
+    z-index: 2;
+}
+
+.score-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.you{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+    padding-right: 280px;
+    z-index: 2;
+    background-color: rgb(179, 241, 177);
+}
+
+.you-text{
+    font-size: 26px;
+    font-weight: 700;
+    color: rgb(22, 15, 31);
+    background-color: rgb(224, 168, 93);
+    z-index: 2;
+}
+.you-score{
+    font-size: 26px;
+    font-weight: 700;
+    color: rgb(214, 231, 236);
+    z-index: 2;
+    background-color: brown;
+    padding: 0px 65px 0px 65px;
+}
+.ai{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.computer-text{
+    font-size: 26px;
+    font-weight: 700;
+    color: rgb(22, 15, 31);
+    background-color: rgb(224, 168, 93);
+    z-index: 2;
+}
+.computer-score{
+    font-size: 26px;
+    font-weight: 700;
+    color: rgb(214, 231, 236);
+    z-index: 2;
+    background-color: brown;
+    text-align: center;
+}
+
+.result{
+    font-size: 24px;
+    color: rgb(7, 255, 255);
+    background-color: rgb(10, 11, 10);color: rgb(7, 255, 255);
+    padding: 5px 10px 5px 10px;
+    margin-top: 10px;
+}
